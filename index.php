@@ -1,10 +1,10 @@
 <?php
 require_once 'YouTubeAPI.php';
 
-$apiKey = "AIzaSyA1FL-x1S3HOYfSP_8IK1rdjUXsdRDT5nk";
+$apiKey = "YouTube Api google ";
 $yt = new YouTubeDownloader($apiKey);
 
-$videoUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+$videoUrl = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"; //url ex 
 $videoData = $yt->getVideoDetails($videoUrl);
 
 if ($videoData) {
